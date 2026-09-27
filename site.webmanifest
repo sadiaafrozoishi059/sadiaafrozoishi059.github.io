@@ -1,0 +1,15 @@
+{
+  "name": "Sadia Afroz Oishi — Academic Portfolio",
+  "short_name": "Sadia Oishi",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f0f4f8",
+  "theme_color": "#0088cc"
+}
