@@ -256,10 +256,9 @@ function renderHome(d) {
               </div>
               <div class="hero-cta-buttons">
                 <a class="btn-primary" href="assets/documents/Sadia-Afroz-Oishi-CV.pdf" download="Sadia_Afroz_Oishi_CV.pdf" target="_blank" rel="noopener"><i class="fas fa-file-arrow-down"></i> Download CV (PDF)</a>
-                <a class="btn-secondary" href="assets/documents/Sadia_Afroz_Oishi_Full_CV.zip" download="Sadia_Afroz_Oishi_Full_CV.zip" target="_blank" rel="noopener"><i class="fas fa-file-zipper"></i> LaTeX / Overleaf Source</a>
                 <a class="btn-secondary" href="mailto:${p.email}"><i class="fas fa-envelope"></i> Contact Me</a>
                 <a class="btn-secondary" href="publications.html"><i class="fas fa-book-open"></i> Publications (8)</a>
-                <a class="btn-secondary" href="research.html"><i class="fas fa-microscope"></i> Research Trajectory</a>
+                <a class="btn-secondary" href="research.html"><i class="fas fa-microscope"></i> Research Work</a>
                 <a class="btn-secondary" href="education.html"><i class="fas fa-graduation-cap"></i> Academic Credentials</a>
               </div>
             </div>
@@ -386,7 +385,6 @@ function renderEducation(d) {
             </div>
             <div style="display: flex; gap: 12px; flex-wrap: wrap;">
               <a class="btn-primary" href="assets/documents/Sadia-Afroz-Oishi-CV.pdf" download="Sadia_Afroz_Oishi_CV.pdf" target="_blank" rel="noopener"><i class="fas fa-file-arrow-down"></i> Download CV (PDF)</a>
-              <a class="btn-secondary" href="assets/documents/Sadia_Afroz_Oishi_Full_CV.zip" download="Sadia_Afroz_Oishi_Full_CV.zip" target="_blank" rel="noopener"><i class="fas fa-file-zipper"></i> LaTeX / Overleaf ZIP</a>
             </div>
           </div>
         </div>
@@ -419,10 +417,10 @@ function renderLanguages(d) {
             Linguistic Competence for <span class="accent-text">International Graduate Studies</span>
           </h2>
           <p style="font-size: 15px; color: var(--text-muted); line-height: 1.7; margin-bottom: 12px;">
-            As an aspiring international graduate researcher, precise, evidence-backed academic communication is central to my scholarly profile. My academic and research foundation is built on <strong>Bangla</strong> as my native mother tongue and <strong>English</strong> as the sole official Medium of Instruction (MOI) throughout my 4-year Bachelor of Science in Engineering degree at Pabna University of Science and Technology (PUST).
+            Clear and accurate communication is central to my academic work. My background combines <strong>Bangla</strong> as my native language and <strong>English</strong> as the official Medium of Instruction (MOI) throughout my 4-year B.Sc. in Engineering degree at Pabna University of Science and Technology (PUST).
           </p>
           <p style="font-size: 14.5px; color: var(--text-dim); line-height: 1.6; margin: 0;">
-            This bilingual capability enables rich rhetorical excellence—proven by winning the Parliamentary Debate Championship and Debater of the Tournament accolade—while maintaining high-level academic fluency across 5+ peer-reviewed IEEE conference publications, international oral research defenses, and peer-review evaluations.
+            This bilingual foundation supports both technical communication and public speaking, demonstrated through university debating awards, oral presentations at IEEE conferences, and international peer review service.
           </p>
         </div>
 
@@ -892,7 +890,7 @@ function renderExperiences(d) {
   window.triggerExpLightbox = (idx) => {
     const exp = d.experiences[idx];
     if (exp && exp.image) {
-      openLightbox(exp.image, `${exp.role} — ${exp.organization}`, "Leadership Record", `${exp.location} · ${exp.period}`, exp.bullets.join(" "));
+      openLightbox(exp.image, `${exp.role}: ${exp.organization}`, "Leadership Record", `${exp.location} : ${exp.period}`, exp.bullets.join(" "));
     }
   };
 }
