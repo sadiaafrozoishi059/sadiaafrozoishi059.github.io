@@ -106,6 +106,7 @@ function renderSocialSidebar() {
   }
 
   sidebar.innerHTML = `
+    <a href="https://github.com/sadiaafrozoishi059" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub Profile"><i class="fab fa-github"></i></a>
     <a href="https://scholar.google.com/citations?user=c2tcMcYAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" title="Google Scholar Profile"><i class="fas fa-graduation-cap"></i></a>
     <a href="https://www.linkedin.com/in/oishi12" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
     <a href="mailto:sadiaafrozoishi059@gmail.com" aria-label="Email" title="Direct Email"><i class="fas fa-envelope"></i></a>

@@ -26,6 +26,7 @@ export const portfolio = {
       "Beyond laboratory investigations, I am an active academic peer reviewer for IEEE RAAICON, the Parliamentary Debate Champion and Debater of the Tournament at ICE Fiesta 2025, and served as Joint Organizing Secretary and Founding Member of the PUST Career and Entrepreneurship Club (PUSTCEC), where I anchored university-wide galas and hosted the official 'Mic & Minds' podcast."
     ],
     socials: [
+      { label: "GitHub", url: "https://github.com/sadiaafrozoishi059", icon: "fab fa-github" },
       { label: "Google Scholar", url: "https://scholar.google.com/citations?user=c2tcMcYAAAAJ&hl=en", icon: "fas fa-graduation-cap" },
       { label: "LinkedIn", url: "https://www.linkedin.com/in/oishi12", icon: "fab fa-linkedin-in" },
       { label: "Email", url: "mailto:sadiaafrozoishi059@gmail.com", icon: "fas fa-envelope" },
